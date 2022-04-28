@@ -13,6 +13,17 @@ public class TestPlan {
     }
 
     @Test(testName = "Realizar a busca de um produto")
+
+    /*Cenário 7 – Validar adição de produto no Carrinho:
+    Dado que Acesso ao site Dafiti
+    Quando preencho o filtro de busca com o produto específico com estoque
+    E realizo a busca
+    E é me retornado um produto
+    Então seleciono o produto desejado
+    E clico no botão de adicionar no carrinho
+    Então acesso o carrinho
+    E o produto é adicionado.
+*/
     public static void submitForm() throws InterruptedException {
         driver.get(Utils.BASE_URL);
         WebForm webForm = new WebForm(driver);

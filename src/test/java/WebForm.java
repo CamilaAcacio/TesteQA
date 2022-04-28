@@ -6,10 +6,10 @@ public class WebForm extends PageObject {
 
     private final String PRODUT = "Boné adidas Performance Ballcot Preto";
 
-    @FindBy(xpath = "//div[@class='search-group']//input[@name='q']") ////input[@name='q']
+    @FindBy(xpath = "//div[@class='search-group']//input[@name='q']")
     private WebElement produt;
 
-    @FindBy(xpath = "//button[@class='search-button icon-magnifier-2']") ////input[@class='header__search--field']
+    @FindBy(xpath = "//button[@class='search-button icon-magnifier-2']")
     private WebElement search_button;
 
     @FindBy(xpath = "//div[@class='product-box-detail']//*[contains(text(), 'Boné adidas Performance Ballcot Preto')]")
